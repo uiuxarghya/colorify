@@ -178,7 +178,7 @@ $(window).load(function() {
                     }
 
                     $('h1').removeClass();
-                    $('h1').html('<a href="/random-color-picker/' + hex + '">' + colour + '</a>');
+                    $('h1').html('<a href="/index.html' + hex + '">' + colour + '</a>');
                     $('body').css('background-color', colour);
                     $('body').colourBrightness();
                 }
@@ -197,7 +197,7 @@ $(window).load(function() {
                     }
 
                     $('h1').addClass('s');
-                    $('h1').html('<a href="/random-color-picker/' + hex + '">Tap here</a>');
+                    $('h1').html('<a href="/index.html' + hex + '">Tap here</a>');
                     $('body').css('background-color', '');
                     $('body').colourBrightness();
                 }
@@ -228,7 +228,7 @@ $(window).load(function() {
                 hex += range.charAt(Math.floor(Math.random() * range.length));
             }
 
-            window.location.replace('https://colorify.vercel.app/random-color-picker/' + hex);
+            window.location.replace('https://colorify.vercel.app/' + hex);
         }
     });
 
