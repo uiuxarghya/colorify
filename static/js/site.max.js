@@ -142,7 +142,7 @@ $(window).load(function() {
 
         $('body').addClass('touch');
         $('h1').addClass('s');
-        $('h1').html('<a href="/random-color-picker/' + hex + '">Tap here</a>');
+        $('h1').html('<a href="/index.html' + hex + '">Tap here</a>');
     }
 
     window.onhashchange = hashColour;
